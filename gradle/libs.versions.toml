@@ -1,0 +1,4 @@
+[versions]
+kotlin = "2.1.10"
+
+[libraries]
