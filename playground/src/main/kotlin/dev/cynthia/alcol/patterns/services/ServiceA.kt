@@ -7,10 +7,8 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 
-plugins {
-	id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
+package dev.cynthia.alcol.patterns.services
+
+interface ServiceA {
+	fun a()
 }
-
-rootProject.name = "alcol-experiments"
-
-include("playground")

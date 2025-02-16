@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+title: ALCoL Experiments
+message: >-
+  If you use this software and/or its associated
+  documentation, please cite it using the metadata from this
+  file.
+type: software
+authors:
+  - family-names: Rey
+    given-names: Cynthia
+    email: cynthia@cynthia.dev
+repository-code: https://github.com/cyyynthia/ut-alcol-experiments
+abstract: >-
+  This repository contains software and its associated
+  design documentation related to component-based software
+  engineering (CBSE). It explores approaches to build
+  software using this paradigm in Java/Kotlin in quest of a
+  lightweight methodology requiring little to no additional
+  tooling.
+keywords:
+  - component-based software engineering
+  - CBSE
+license:
+  - MPL-2.0
+  - CC-BY-SA-4.0
+references:
+  - authors:
+    - family-names: Arcangeli
+      given-names: Jean-Paul
+    - family-names: Migeon
+      given-names: Frédéric
+    - family-names: Noël
+      given-names: Victor
+    - family-names: Martin-Dorel
+      given-names: Erik
+    - name: IRIT SMAC Team
+    title: Make Agents Yourself
+    abbreviation: MAY
+    url: https://www.irit.fr/redmine/projects/may
+    repository-code: https://github.com/victornoel/may
+    version: "3.6.2"
+    date-released: "2021-03-21"
+    # Note: website says "GPL and LGPL"; however no mention of LGPL in the source tree.
+    # No mention of "any later versions" exists; therefore is 3.0-only (c.f. § 14.).
+    license: GPL-3.0-only
+    type: software

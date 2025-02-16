@@ -7,10 +7,10 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 
-plugins {
-	id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
+package dev.cynthia.alcol.swappable.services
+
+interface NetworkInterface {
+	// Not very pretty but will do just fine
+	fun recv(id: String): String?
+	fun send(id: String, message: String)
 }
-
-rootProject.name = "alcol-experiments"
-
-include("playground")
